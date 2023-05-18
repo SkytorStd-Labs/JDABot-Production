@@ -7,4 +7,4 @@ services:
     volumes:
       - ./app:/app
     working_dir: /app
-    command: java -jar discordedt.jar ${TOKEN}
+    command: java -jar JDABOTPRODUCTION.jar ${TOKEN}
