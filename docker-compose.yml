@@ -1,0 +1,10 @@
+version: '2.4'
+
+services:
+  java:
+    container_name: JDABOTPRODUCTION
+    image: amazoncorretto:20.0.1
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: java -jar discordedt.jar ${TOKEN}
